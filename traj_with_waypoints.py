@@ -50,9 +50,12 @@ client.moveToPositionAsync(0,0,z, 1,
 
 print("at 0,0,-30")
 
-waypoints = [airsim.Vector3r(10,0,z), airsim.Vector3r(20,0,z), airsim.Vector3r(30,0,z), airsim.Vector3r(40,0,z), airsim.Vector3r(50,0,z),
-             airsim.Vector3r(50,-10,z), airsim.Vector3r(50,-20,z), airsim.Vector3r(50,-30,z), airsim.Vector3r(50,-40,z), airsim.Vector3r(50,-50,z), 
-             airsim.Vector3r(40,-50,z), airsim.Vector3r(30,-50,z), airsim.Vector3r(20,-50,z), airsim.Vector3r(10,-50,z), airsim.Vector3r(0,-50,z),
+waypoints = [airsim.Vector3r(10,0,z), airsim.Vector3r(20,0,z), airsim.Vector3r(30,0,z), airsim.Vector3r(40,0,z), 
+             airsim.Vector3r(45,-5,z),
+             airsim.Vector3r(50,-10,z), airsim.Vector3r(50,-20,z), airsim.Vector3r(50,-30,z), airsim.Vector3r(50,-40,z), 
+             airsim.Vector3r(45,-45,z), 
+             airsim.Vector3r(40,-50,z), airsim.Vector3r(30,-50,z), airsim.Vector3r(20,-50,z), airsim.Vector3r(10,-50,z), 
+             airsim.Vector3r(5,-45,z),
              airsim.Vector3r(0,-40,z), airsim.Vector3r(0,-30,z), airsim.Vector3r(0,-20,z), airsim.Vector3r(0,-10,z), airsim.Vector3r(0,0,z)]
 
 print("flying on path...")
