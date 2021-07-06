@@ -48,9 +48,12 @@ print(df)
 
 #print(waypoints_list)
 
-waypoints_list = [(0,0), (50,0), (50,-50), (0,-50)]
+waypoints_list = [(0,0), (10,0), (20,0), (30,0), (40,0), (50,0), 
+                  (50,-10), (50,-20), (50,-30), (50,-40), (50,-50), 
+                  (40,-50), (30,-50), (20,-50), (10,-50), (0,-50),
+                  (0,-40), (0,-30), (0,-20), (0,-10)]
 
-k = 4
+k = 20
 
 first_tuple_elements = [a_tuple[0] for a_tuple in waypoints_list]
 second_tuple_elements = [a_tuple[1] for a_tuple in waypoints_list]
