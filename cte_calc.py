@@ -27,6 +27,7 @@ def cte(pos, vel_vect, wp_idx, k, waypoints):
     next_wp_idx = wp_idx + 1
     if next_wp_idx >= k:
         next_wp_idx = k - 1
+        wp_idx -= 1
 
     a = np.array(waypoints[next_wp_idx]).flatten() - np.array(waypoints[wp_idx]).flatten()
     
